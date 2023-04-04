@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 
 * {
-
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -20,7 +19,6 @@ body {
 }
 
 .header {
-
     background-image: url(img/9cb286.png);
     background-position: center bottom;
     background-repeat: no-repeat;
@@ -41,7 +39,6 @@ body {
 }
 
 .logo {
-
     color: #62764D;
     font-size: 25px;
     font-weight:800;
@@ -53,17 +50,15 @@ body {
 }
 
 .menu .navbar ul li a{
-
     font-size: 18px;
     padding: 20px;
-    color: #62764D;
+    color: #ffffff;
     display: block;
     font-weight: 600;
 }
 
 .menu .navbar ul li a:hover {
-
-    color: #ffffff;
+    color: #8C52FF;
 }
 
 #menu {
@@ -71,8 +66,8 @@ body {
 }
 
 .menu-icono {
-
     width:25px;
+    
 
 }
 
@@ -87,8 +82,9 @@ body {
 }
 
 .header-txt {
-
     width: 50%;
+
+
 }
 
 .oferta {
@@ -103,9 +99,8 @@ body {
 }
 
 .header-txt h1 {
-
-    font-size: 110px;
-    line-height:110px;
+    font-size: 95px;
+    line-height:95px;
     /* podemos ocupar otro tipo de letra
     font-family:.......*/
     color: #62764D;
@@ -114,3 +109,325 @@ body {
 
 
 
+.btn-1 {
+    display: inline-block;
+    padding: 13px 35px;
+    background-color: #62764D;
+    color: #ffffff;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.btn-1:hover {
+    background-color: #8C52FF;
+}
+
+.about{
+    padding: 100px 0 0 0;
+    display: flex;
+    align-items: center;
+}
+
+.about-img {
+    width: 50%;
+    text-align: center;
+}
+
+.about-img img {
+    height: 700px;
+}
+
+.about-txt {
+    width: 50%;
+   
+}
+
+h2 {
+
+    font-size: 55px;
+    line-height: 70px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    color: #62764D;
+}
+
+p{ 
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 25px;
+
+}
+
+.ofert {
+    padding: 100px 0;
+    display: flex;
+    
+}
+
+.ofert img {
+    width: 400px;
+   
+}
+
+.product {
+    text-align: center;
+    padding: 0 0 100px 0 ;
+
+}
+
+.product-content {
+    margin: 50px 0 70px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.product-1 {
+    width:400px;
+    padding: 25px 50px;
+
+}
+
+.product-1 img {
+    width: 200px;
+   
+}
+
+.product-1 h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin: 15px 0;
+}
+
+.product-1 span {
+    display: block;
+    font-size: 20px;
+    font-weight: 800;
+    color:#8C52FF;
+    margin-bottom: 15px;
+
+}
+
+.news {
+    padding: 100px 0;
+    background-color: #849970;
+}
+
+.news-content {
+    display: flex;
+    align-items: center;
+    
+}
+
+.news-1 {
+    padding-left: 100px;
+    width: 50%;
+}
+
+.news-1 h3{
+    font-size: 30px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.news-1 p {
+    color: #dcdcdc;
+   
+}
+
+.news-2 {
+    width: 50%;
+}
+
+form {
+    display: flex;
+    align-items: center;
+
+}
+
+input {
+    width: 450px;
+    padding: 15px;
+    border: 0;
+    outline: none;
+    margin-right: 10px;
+
+}
+
+.btn-2 {
+    width: 150px;
+    background-color: #8C52FF;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.map {
+    -webkit-filter: grayscale(100%);
+
+}
+
+.footer {
+
+    background-color: #FBF4E4;
+    padding: 100px 0;
+    margin-top:-7px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.link h3 {
+    color: #849970;
+    font-size: 18px;
+    margin-bottom: 15px;
+
+}
+
+.link a {
+
+    color: #637058;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.link a:hover {
+    color: #8C52FF;
+}
+
+@media(max-width:991px) {
+
+
+    .menu{
+        padding: 30px;
+    }
+
+    .menu label{
+        display: initial;
+    }
+
+    .menu .navbar{
+
+        position:absolute;
+        top: 95%;
+        left: 0;
+        right: 0;
+        background-color: #FBF4E4;
+        display: none;
+    }
+
+    .menu .navbar ul li{
+        width: 100%;
+    }
+
+    #menu:checked ~ .navbar {
+        display: initial;
+    }
+
+    .header {
+
+        min-height: 0hv;
+        background-color: left bottom;
+    }
+
+    .header-content {
+        padding: 100px 30px 50px 30px;
+    }
+
+    .header-txt {
+        width: 100%;
+        text-align: center;
+    }
+
+    .header-txt h1 {
+        font-size: 70px;
+        line-height: 70px;
+        
+    }
+
+    .about {
+        padding: 30px 30px 0 30px;
+        flex-direction: column;
+    }
+
+    .about-img {
+        width: 100%;
+        order: 2;
+    }
+
+    .about-img img {
+        height: 400px;
+    }
+
+    .about-txt {
+        width: 100%;
+        text-align: center;
+        margin-bottom:30px;
+
+    }
+
+    h2 {
+        font-size: 50px;
+        line-height: 40px;
+        
+    }
+
+    .ofert {
+        padding: 30px 30px 0 30px;
+        flex-direction: column;
+    }
+
+    .ofert img {
+        width: 100%;
+        
+    }
+
+    .product {
+        padding: 30px;
+
+    }
+
+    .product-content {
+        margin: 0;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .product-1 {
+        width: 100%;
+        padding: 0;
+    }
+
+    .news {
+        padding: 30px ;
+        
+    }
+
+    .news-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .news-1 , .news-2 {
+
+        width: 100%;
+        padding: 0;
+    }
+
+    .footer {
+        padding: 30px;
+
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+}
