@@ -302,6 +302,7 @@ input {
     color: #8C52FF;
 }
 
+
 @media(max-width:991px) {
 
 
@@ -319,7 +320,7 @@ input {
         top: 95%;
         left: 0;
         right: 0;
-        background-color: #FBF4E4;
+        background-color: #CAC2E1;
         display: none;
     }
 
