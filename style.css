@@ -39,11 +39,9 @@ body {
 }
 
 .logo {
-    color: #62764D;
-    font-size: 25px;
-    font-weight:800;
+    font-weight:850;
     height: 150px;
-    width: 225px;
+    width: 220px;
 }
 
 .menu .navbar ul li {
@@ -85,6 +83,8 @@ body {
 
 .header-txt {
     width: 50%;
+   
+   
 
 
 }
