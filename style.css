@@ -25,7 +25,14 @@ body {
     background-size: cover;
     display: flex;
     align-items: center;
-    min-height:45vh;
+    min-height:35vh;
+
+}
+
+
+.navbar form {
+    width: 50%;
+
 }
 
 .menu {
@@ -42,24 +49,16 @@ body {
     font-weight:850;
     height: 150px;
     width: 220px;
+    
+    
 }
 
-.menu .navbar ul li {
-    position: relative;
-    float: left;
-}
+.menu .navbar ul li {}
 
-.menu .navbar ul li a{
-    font-size: 18px;
-    padding: 20px;
-    color: #ffffff;
-    display: block;
-    font-weight: 600;
-}
+.menu .navbar ul li a{}
+    
 
-.menu .navbar ul li a:hover {
-    color: #8C52FF;
-}
+
 
 #menu {
     display: none;
@@ -67,7 +66,6 @@ body {
 
 .menu-icono {
     width:25px;
-    
 
 }
 
@@ -342,17 +340,6 @@ input {
 
     .header-content {
         padding: 100px 30px 50px 30px;
-    }
-
-    .header-txt {
-        width: 100%;
-        text-align: center;
-    }
-
-    .header-txt h1 {
-        font-size: 70px;
-        line-height: 70px;
-        
     }
 
     .about {
