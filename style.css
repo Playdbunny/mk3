@@ -25,14 +25,13 @@ body {
     background-size: cover;
     display: flex;
     align-items: center;
-    min-height:35vh;
+    min-height: 20vh;
 
 }
 
 
-.navbar form {
-    width: 50%;
-
+.navbar-form {
+    width: auto;
 }
 
 .menu {
@@ -40,23 +39,21 @@ body {
     top: 0;
     left: 0;
     right: 0;
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .logo {
-    font-weight:850;
     height: 150px;
     width: 220px;
-    
-    
+    margin-left: 100px;
 }
 
 .menu .navbar ul li {}
 
-.menu .navbar ul li a{}
-    
+.menu .navbar ul li a {}
+
 
 
 
@@ -65,7 +62,7 @@ body {
 }
 
 .menu-icono {
-    width:25px;
+    width: 25px;
 
 }
 
@@ -81,8 +78,8 @@ body {
 
 .header-txt {
     width: 50%;
-   
-   
+
+
 
 
 }
@@ -100,7 +97,7 @@ body {
 
 .header-txt h1 {
     font-size: 95px;
-    line-height:95px;
+    line-height: 95px;
     /* podemos ocupar otro tipo de letra
     font-family:.......*/
     color: #62764D;
@@ -122,7 +119,7 @@ body {
     background-color: #8C52FF;
 }
 
-.about{
+.about {
     padding: 100px 0 0 0;
     display: flex;
     align-items: center;
@@ -139,7 +136,7 @@ body {
 
 .about-txt {
     width: 50%;
-   
+
 }
 
 h2 {
@@ -151,7 +148,7 @@ h2 {
     color: #62764D;
 }
 
-p{ 
+p {
     font-size: 16px;
     color: #727272;
     margin-bottom: 25px;
@@ -161,17 +158,17 @@ p{
 .ofert {
     padding: 100px 0;
     display: flex;
-    
+
 }
 
 .ofert img {
     width: 400px;
-   
+
 }
 
 .product {
     text-align: center;
-    padding: 0 0 100px 0 ;
+    padding: 0 0 100px 0;
 
 }
 
@@ -183,14 +180,14 @@ p{
 }
 
 .product-1 {
-    width:400px;
+    width: 400px;
     padding: 25px 50px;
 
 }
 
 .product-1 img {
     width: 200px;
-   
+
 }
 
 .product-1 h3 {
@@ -204,7 +201,7 @@ p{
     display: block;
     font-size: 20px;
     font-weight: 800;
-    color:#8C52FF;
+    color: #8C52FF;
     margin-bottom: 15px;
 
 }
@@ -217,7 +214,7 @@ p{
 .news-content {
     display: flex;
     align-items: center;
-    
+
 }
 
 .news-1 {
@@ -225,7 +222,7 @@ p{
     width: 50%;
 }
 
-.news-1 h3{
+.news-1 h3 {
     font-size: 30px;
     color: #ffffff;
     text-transform: uppercase;
@@ -234,7 +231,7 @@ p{
 
 .news-1 p {
     color: #dcdcdc;
-   
+
 }
 
 .news-2 {
@@ -274,7 +271,7 @@ input {
 
     background-color: #FBF4E4;
     padding: 100px 0;
-    margin-top:-7px;
+    margin-top: -7px;
 }
 
 .footer-content {
@@ -306,17 +303,17 @@ input {
 @media(max-width:991px) {
 
 
-    .menu{
+    .menu {
         padding: 30px;
     }
 
-    .menu label{
+    .menu label {
         display: initial;
     }
 
-    .menu .navbar{
+    .menu .navbar {
 
-        position:absolute;
+        position: absolute;
         top: 95%;
         left: 0;
         right: 0;
@@ -324,11 +321,11 @@ input {
         display: none;
     }
 
-    .menu .navbar ul li{
+    .menu .navbar ul li {
         width: 100%;
     }
 
-    #menu:checked ~ .navbar {
+    #menu:checked~.navbar {
         display: initial;
     }
 
@@ -359,14 +356,14 @@ input {
     .about-txt {
         width: 100%;
         text-align: center;
-        margin-bottom:30px;
+        margin-bottom: 30px;
 
     }
 
     h2 {
         font-size: 50px;
         line-height: 40px;
-        
+
     }
 
     .ofert {
@@ -376,7 +373,7 @@ input {
 
     .ofert img {
         width: 100%;
-        
+
     }
 
     .product {
@@ -395,8 +392,8 @@ input {
     }
 
     .news {
-        padding: 30px ;
-        
+        padding: 30px;
+
     }
 
     .news-content {
@@ -404,7 +401,8 @@ input {
         text-align: center;
     }
 
-    .news-1 , .news-2 {
+    .news-1,
+    .news-2 {
 
         width: 100%;
         padding: 0;
@@ -419,5 +417,5 @@ input {
         flex-direction: column;
         text-align: center;
     }
-    
+
 }
