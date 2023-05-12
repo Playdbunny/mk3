@@ -54,7 +54,7 @@ body {
     color: black;
   }
   
-  /* Style the "active" element to highlight the current page */
+  /* Estilo para el active */
   .topnav a.active {
     background-color: #ab89cb;
     color: white;
@@ -85,12 +85,6 @@ body {
     width: 220px;
     margin-left: 625px;
 }
-
-.menu .navbar ul li {}
-
-.menu .navbar ul li a {}
-
-
 
 
 #menu {
@@ -299,7 +293,7 @@ input {
 }
 
 .map {
-    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
 
 }
 
