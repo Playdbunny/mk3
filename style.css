@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mali&display=swap');
 
 * {
     margin: 0;
@@ -44,6 +45,7 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    font-family: 'Mali', cursive;
   }
   
   /* Change the color of links on hover */
