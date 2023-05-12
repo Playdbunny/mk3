@@ -50,7 +50,7 @@ body {
   /* Change the color of links on hover */
   .topnav a:hover {
     background-color: #ab89cb;
-    color: black;
+    color: rgb(255, 255, 255);
   }
   
   /* Estilo para el active */
