@@ -33,6 +33,7 @@ body {
 .topnav {
     overflow: hidden;
     background-color: #62764D;
+    margin-bottom: 50px;
   }
   
   /* Style the links inside the navigation bar */
