@@ -15,7 +15,7 @@ def homepage(request):
     return HttpResponse(document)
 
 def bandanas(request):
-    bandana = open("C:/Users/CETECOM/Desktop/mk3/newPage/templates/bandanas.html")
+    bandana = open("C:/Users/CETECOM/Desktop/mk3/newPage/templates/bandana.html")
     template = Template(bandana.read())
     bandana.close()
     context = Context()
