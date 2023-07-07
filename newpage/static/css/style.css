@@ -19,7 +19,7 @@ body {
 }
 
 .header {
-    background-image: url(img/9cb286.png);
+    background-color: #9cb286;
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -85,7 +85,7 @@ body {
 .logo {
     height: 150px;
     width: 220px;
-    margin-left: 625px;
+    margin-left: 840px;
 }
 
 
