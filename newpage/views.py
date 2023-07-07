@@ -22,6 +22,30 @@ def bandanas(request):
     document = template.render(context)
     return HttpResponse(document)
 
+def correas(request):
+    correa = open("C:/Users/CETECOM/Documents/GitHub/mk3/newPage/templates/correas.html")
+    template = Template(correa.read())
+    correa.close()
+    context = Context()
+    document = template.render(context)
+    return HttpResponse(document)
+
+def identificaciones(request):
+    identificacion = open("C:/Users/CETECOM/Documents/GitHub/mk3/newPage/templates/identificaciones.html")
+    template = Template(identificacion.read())
+    identificacion.close()
+    context = Context()
+    document = template.render(context)
+    return HttpResponse(document)
+
+def about(request):
+    about = open("C:/Users/CETECOM/Documents/GitHub/mk3/newPage/templates/sobrenosotros.html")
+    template = Template(about.read())
+    about.close()
+    context = Context()
+    document = template.render(context)
+    return HttpResponse(document)
+
 def crud(request):
     usuarios = Usuario.objects.all()
     context = {"usuario" : UsuarioForm}
