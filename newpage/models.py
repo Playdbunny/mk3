@@ -2,6 +2,7 @@ from django.db import models
 
 # Create your models here.
 
+
 class tipoUsuario(models.Model):
     idTipoUsuario = models.AutoField(
         primary_key=True, db_column='idTipo', verbose_name='ID_tipo_Usuario')

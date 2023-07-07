@@ -4,6 +4,6 @@ from .models import Usuario, tipoUsuario
 # Create your views here.
 
 def homepage(request):
-    
-    return render(request, "templates/homepage.html")
+    context = {}
+    return render(request, "templates/homepage.html", context)
 
